@@ -1,0 +1,1 @@
+db.restaurants.find({ type_of_food: "Chinese" });

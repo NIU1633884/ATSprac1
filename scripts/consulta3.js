@@ -1,0 +1,1 @@
+db.restaurants.find({ rating: { $gt: 4 } });

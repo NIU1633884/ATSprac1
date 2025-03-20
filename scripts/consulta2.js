@@ -1,0 +1,1 @@
+db.inspections.find({ result: { $ne: "No Violation Issued" } }).sort({ date: 1 });
